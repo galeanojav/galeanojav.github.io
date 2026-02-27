@@ -17,7 +17,7 @@ title: Projects
 
 - **NetLIFE-CODES (PID2024-157869NB-I00)** — Redes de la vida: Descubriendo y pronosticando dinámicas complejas en sistemas biomédicos, agroecológicos y sociales.  
 - **CLAuDIA (SBPLY/23/180225/000234)** — Clustering para identificar subgrupos de diabetes en adultos mayores.  
-- **BADMINDATA** — Performance analysis using machine learning models in elite badminton (BWF).  
+- **BADMINDATA** — (International Badminton Federation) Performance analysis using machine learning models in elite badminton (BWF).  
 
 ## Teaching innovation & outreach (selection)
 **Principal Investigator**
