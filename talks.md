@@ -3,7 +3,7 @@ layout: default
 title: Talks
 ---
 
-<div class="page"><div class="card">
+
 
 # Talks & outreach (selection)
 
@@ -19,5 +19,3 @@ If you’d like, we can split this page into:
 - **Courses / workshops**
 - **Outreach (Pint of Science, schools, etc.)**
 and add tags + filters.
-
-</div></div>

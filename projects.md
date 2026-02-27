@@ -3,7 +3,7 @@ layout: default
 title: Projects
 ---
 
-<div class="page"><div class="card">
+
 
 # Projects
 
@@ -17,5 +17,3 @@ title: Projects
 - *Ciencia y Arte* (UPM, 2024).  
 - *Cine4Ciencia* (UPM, 2022).  
 - *Science games* (UPM, 2017–2018).
-
-</div></div>

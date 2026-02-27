@@ -3,7 +3,7 @@ layout: default
 title: Publications
 ---
 
-<div class="page"><div class="card">
+
 
 # Publications
 
@@ -24,5 +24,3 @@ title: Publications
 - (2019) *De los puentes de Königsberg a las redes sociales.* Ediciones El País.  
 
 > Tip: if you want this page to be automatically generated, you can keep the bibliography in a `publications.bib` file and render it with a small script. For now, this page is curated and easy to edit.
-
-</div></div>

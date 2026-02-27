@@ -3,7 +3,7 @@ layout: default
 title: CV
 ---
 
-<div class="page"><div class="card">
+
 
 # CV
 
@@ -19,5 +19,3 @@ You can also maintain a shorter **web CV** here with:
 - selected publications
 - funded projects
 - teaching & outreach
-
-</div></div>

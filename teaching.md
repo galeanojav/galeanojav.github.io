@@ -3,7 +3,7 @@ layout: default
 title: Teaching
 ---
 
-<div class="page"><div class="card">
+
 
 # Teaching
 
@@ -18,5 +18,3 @@ If you want, we can add:
 - slides
 - short descriptions of each course
 - a “resources” section (Python notebooks, datasets, guides)
-
-</div></div>

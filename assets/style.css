@@ -134,9 +134,7 @@ small, .muted{ color: var(--muted); }
 .box ul{ padding-left: 18px; margin: 10px 0 0; }
 .box li{ margin: 6px 0; }
 
-.page{
-  margin-top: 22px;
-}
+.page{ padding: 22px; }
 .page .card{ padding: 18px; }
 
 hr{

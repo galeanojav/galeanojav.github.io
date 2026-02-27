@@ -21,7 +21,10 @@
     </div>
 
     <main class="container">
-      {{ content }}
+      <article class="card page">
+        {{ content }}
+      </article>
+
       <footer>
         © {{ "now" | date: "%Y" }} {{ site.title }} · Built with GitHub Pages
       </footer>
