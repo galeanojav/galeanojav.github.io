@@ -13,6 +13,6 @@ Python package to build and analyse **bipartite trade networks** from FAOSTAT-st
 - PyPI: `faonet`
 - GitHub repo: `galeanojav/FAONet`
 
-## Other code
-- Notebooks and teaching materials (add links here)
-- Reproducible research repositories (add links here)
+## NetBayesABM
+- PyPI: `netbayesabm`
+- GitHub repo: `galeanojav/NetBayesABM`
