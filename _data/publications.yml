@@ -1,0 +1,62 @@
+# Publications (curated). Add/edit entries here and the Publications page will update automatically.
+# Fields: year (int), title (str), venue (str), type (journal|book|chapter|other), authors (optional), link (optional), note (optional)
+
+- year: 2025
+  type: journal
+  title: "Scarce data, noisy inferences and overfitting: the hidden flaws in ecological dynamics modelling"
+  venue: "J. R. Soc. Interface"
+  link: ""
+
+- year: 2025
+  type: journal
+  title: "Exploring the Complexities of Intestinal and Pulmonary Microbiota in Cystic Fibrosis: A Multi-Omics Approach"
+  venue: "Respiratory Medicine"
+  link: ""
+
+- year: 2025
+  type: journal
+  title: "Machine Learning cell wall-based models to predict plant growth using onion epidermis"
+  venue: "International Journal of Molecular Sciences"
+  link: ""
+
+- year: 2024
+  type: journal
+  title: "Is it essential to know the composition of the fecal microbiota to certify a fecal donor?"
+  venue: "Diagnostics"
+  link: ""
+
+- year: 2024
+  type: journal
+  title: "Impact of antibiotics, corticosteroids, and microbiota on immunotherapy efficacy in patients with non-small cell lung cancer"
+  venue: "Heliyon"
+  link: ""
+
+- year: 2014
+  type: journal
+  title: "Rethinking the logistic approach for population dynamics of mutualistic interactions"
+  venue: "Journal of Theoretical Biology"
+  link: ""
+
+- year: 2012
+  type: journal
+  title: "The architecture of weighted mutualistic networks"
+  venue: "Oikos"
+  link: ""
+
+- year: 2009
+  type: journal
+  title: "Weighted-Interaction Nestedness Estimator (WINE): A new estimator to calculate over frequency matrices"
+  venue: "Environmental Modelling & Software"
+  link: ""
+
+- year: 2022
+  type: book
+  title: "Laboratorio de computación para profesores de Física y Química"
+  venue: "UPMpress"
+  link: ""
+
+- year: 2019
+  type: book
+  title: "De los puentes de Königsberg a las redes sociales"
+  venue: "Ediciones El País"
+  link: ""

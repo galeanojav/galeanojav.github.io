@@ -1,0 +1,43 @@
+---
+layout: default
+title: Publications
+---
+
+<h1>Publications</h1>
+
+<p class="muted">
+Curated selection. For the complete list, see
+<a href="https://scholar.google.com/citations?user=mUBlzyIAAAAJ&hl=en">Google Scholar</a>.
+</p>
+
+{% assign pubs = site.data.publications | sort: "year" | reverse %}
+{% assign years = pubs | map: "year" | uniq %}
+
+{% for y in years %}
+  <details class="pub-year" {% if forloop.first %}open{% endif %}>
+    <summary><strong>{{ y }}</strong></summary>
+    <ul class="pub-list">
+      {% for p in pubs %}
+        {% if p.year == y %}
+          <li>
+            {% if p.link and p.link != "" %}
+              <a href="{{ p.link }}">{{ p.title }}</a>
+            {% else %}
+              {{ p.title }}
+            {% endif %}
+            — <em>{{ p.venue }}</em>
+            {% if p.note and p.note != "" %}
+              <span class="muted">({{ p.note }})</span>
+            {% endif %}
+          </li>
+        {% endif %}
+      {% endfor %}
+    </ul>
+  </details>
+{% endfor %}
+
+<hr/>
+
+<p class="muted">
+Edit the list in <code>_data/publications.yml</code>.
+</p>

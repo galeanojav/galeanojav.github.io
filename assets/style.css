@@ -150,3 +150,37 @@ footer{
   border-top: 1px solid var(--border);
   padding-top: 16px;
 }
+
+/* Publications: collapsible years */
+details.pub-year{
+  margin: 12px 0;
+  padding: 10px 12px;
+  border: 1px solid var(--border);
+  border-radius: 14px;
+  background: #fff;
+}
+details.pub-year summary{
+  cursor: pointer;
+  list-style: none;
+  padding: 4px 2px;
+  font-size: 1.05rem;
+}
+details.pub-year summary::-webkit-details-marker{ display:none; }
+details.pub-year[open] summary{
+  margin-bottom: 8px;
+}
+.pub-list{
+  margin: 0;
+  padding-left: 18px;
+}
+.pub-list li{
+  margin: 8px 0;
+}
+code{
+  font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+  font-size: 0.95em;
+  background: rgba(0,0,0,0.04);
+  padding: 0.12em 0.35em;
+  border-radius: 8px;
+  border: 1px solid var(--border);
+}
