@@ -1,5 +1,30 @@
----
-layout: default
----
-{% include nav.html %}
-{{ content }}
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>{% if page.title %}{{ page.title }} · {% endif %}{{ site.title }}</title>
+    <meta name="description" content="{{ site.description }}" />
+    <link rel="stylesheet" href="{{ '/assets/style.css' | relative_url }}" />
+    {% seo %}
+  </head>
+  <body>
+    <div class="topbar">
+      <div class="brand">
+        <span class="dot"></span>
+        <div>
+          <div class="title">{{ site.title }}</div>
+          <div class="subtitle">{{ site.description }}</div>
+        </div>
+      </div>
+      {% include nav.html %}
+    </div>
+
+    <main class="container">
+      {{ content }}
+      <footer>
+        © {{ "now" | date: "%Y" }} {{ site.title }} · Built with GitHub Pages
+      </footer>
+    </main>
+  </body>
+</html>
