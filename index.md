@@ -9,7 +9,7 @@ title: Home
   </div>
 
   <div class="card intro">
-    <h1>Javier Galeano Prieto</h1>
+    <h1>Javier Galeano</h1>
     <p><strong>Catedrático de Universidad</strong><br/>
     ETSIAAB · Universidad Politécnica de Madrid</p>
 
