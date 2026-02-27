@@ -3,6 +3,8 @@ layout: default
 title: Teaching
 ---
 
+<div class="page"><div class="card">
+
 # Teaching
 
 Selection of courses taught (UPM):
@@ -17,3 +19,4 @@ If you want, we can add:
 - short descriptions of each course
 - a “resources” section (Python notebooks, datasets, guides)
 
+</div></div>

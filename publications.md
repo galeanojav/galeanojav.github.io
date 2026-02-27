@@ -3,6 +3,8 @@ layout: default
 title: Publications
 ---
 
+<div class="page"><div class="card">
+
 # Publications
 
 ## Selected journal articles (recent)
@@ -23,3 +25,4 @@ title: Publications
 
 > Tip: if you want this page to be automatically generated, you can keep the bibliography in a `publications.bib` file and render it with a small script. For now, this page is curated and easy to edit.
 
+</div></div>

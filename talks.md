@@ -3,6 +3,8 @@ layout: default
 title: Talks
 ---
 
+<div class="page"><div class="card">
+
 # Talks & outreach (selection)
 
 - **2024-09-26** — *Cómo preparar una buena presentación y establecer un buen canal de comunicación en el aula* (Univ. de Sevilla).  
@@ -18,3 +20,4 @@ If you’d like, we can split this page into:
 - **Outreach (Pint of Science, schools, etc.)**
 and add tags + filters.
 
+</div></div>

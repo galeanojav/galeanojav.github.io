@@ -3,6 +3,8 @@ layout: default
 title: CV
 ---
 
+<div class="page"><div class="card">
+
 # CV
 
 A full CV is available as a downloadable document.
@@ -18,3 +20,4 @@ You can also maintain a shorter **web CV** here with:
 - funded projects
 - teaching & outreach
 
+</div></div>

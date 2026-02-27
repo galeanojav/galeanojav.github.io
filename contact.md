@@ -3,6 +3,8 @@ layout: default
 title: Contact
 ---
 
+<div class="page"><div class="card">
+
 # Contact
 
 **Javier Galeano Prieto**  
@@ -13,3 +15,4 @@ Universidad Politécnica de Madrid (ETSIAAB)
 - ORCID: <https://orcid.org/0000-0003-0706-4317>
 - GitHub: *(add your profile link)*
 
+</div></div>
