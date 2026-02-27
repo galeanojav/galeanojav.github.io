@@ -9,7 +9,7 @@ title: Projects
 
 ## Current / recent (selection)
 
-**PI**
+**Principal Investigator**
 
 - **Biodiversa+ 2022 (PCI2023-145956-2)** — *Making Technology Work for Monitoring Pollinators* (Antenna).
 
@@ -20,6 +20,8 @@ title: Projects
 - **BADMINDATA** — Performance analysis using machine learning models in elite badminton (BWF).  
 
 ## Teaching innovation & outreach (selection)
+**Principal Investigator**
+
 - *Ciencia y Arte* (UPM, 2024).  
 - *Cine4Ciencia* (UPM, 2022).  
 - *Science games* (UPM, 2017–2018).
