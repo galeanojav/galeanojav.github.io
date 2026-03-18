@@ -176,6 +176,72 @@ details.pub-year[open] summary{
 .pub-list li{
   margin: 8px 0;
 }
+.pub-section{
+  margin-top: 1.5rem;
+}
+.pub-cards{
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: grid;
+  gap: 14px;
+}
+.pub-card{
+  border: 1px solid var(--border);
+  border-radius: 16px;
+  padding: 16px;
+  background: linear-gradient(180deg, #ffffff, #fbfcff);
+}
+.pub-card h3{
+  margin: 0.2rem 0 0.45rem;
+  font-size: 1.05rem;
+}
+.pub-meta{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  align-items: center;
+}
+.pub-year-chip{
+  display: inline-flex;
+  align-items: center;
+  padding: 0.2rem 0.55rem;
+  border-radius: 999px;
+  background: rgba(37,99,235,0.10);
+  color: var(--link);
+  font-size: 0.85rem;
+  font-weight: 650;
+}
+.pub-venue{
+  color: var(--muted);
+  font-size: 0.95rem;
+}
+.pub-actions{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-top: 12px;
+}
+.pub-link,
+.inline-action{
+  display: inline-flex;
+  align-items: center;
+  padding: 0.42rem 0.75rem;
+  border-radius: 999px;
+  border: 1px solid var(--border);
+  background: #fff;
+  color: var(--text);
+  font-size: 0.92rem;
+  text-decoration: none;
+}
+.pub-link:hover,
+.inline-action:hover{
+  text-decoration: none;
+  background: #f3f4f6;
+}
+.pub-link-secondary{
+  background: rgba(37,99,235,0.06);
+}
 code{
   font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
   font-size: 0.95em;

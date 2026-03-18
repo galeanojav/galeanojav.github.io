@@ -1,53 +1,68 @@
 # Publications (curated). Add/edit entries here and the Publications page will update automatically.
-# Fields: year (int), title (str), venue (str), type (journal|book|chapter|other), authors (optional), link (optional), note (optional)
+# Fields:
+# - year (int)
+# - title (str)
+# - venue (str)
+# - type (journal|book|chapter|other)
+# - authors (optional)
+# - link (optional): official article/publisher/DOI landing page
+# - full_text (optional): public repository, open-access copy, or PDF link
+# - note (optional)
 
 - year: 2025
   type: journal
   title: "Scarce data, noisy inferences and overfitting: the hidden flaws in ecological dynamics modelling"
   venue: "J. R. Soc. Interface"
-  link: ""
+  link: "https://doi.org/10.1098/rsif.2025.0183"
+  full_text: "https://www.iit.comillas.edu/publicacion/revista/en/2766/Scarce%20data%2C%20noisy%20inferences%20and%20overfitting%3A%20the%20hidden%20flaws%20in%20ecological%20dynamics%20modelling"
 
 - year: 2025
   type: journal
   title: "Exploring the Complexities of Intestinal and Pulmonary Microbiota in Cystic Fibrosis: A Multi-Omics Approach"
   venue: "Respiratory Medicine"
-  link: ""
+  link: "https://doi.org/10.1016/j.rmed.2025.108331"
+  full_text: "https://www.sciencedirect.com/science/article/pii/S0954611125002792"
 
 - year: 2025
   type: journal
   title: "Machine Learning cell wall-based models to predict plant growth using onion epidermis"
   venue: "International Journal of Molecular Sciences"
-  link: ""
+  link: "https://doi.org/10.3390/ijms26072946"
+  full_text: "https://www.mdpi.com/1422-0067/26/7/2946"
 
 - year: 2024
   type: journal
   title: "Is it essential to know the composition of the fecal microbiota to certify a fecal donor?"
   venue: "Diagnostics"
-  link: ""
+  link: "https://doi.org/10.3390/diagnostics14232635"
+  full_text: "https://www.mdpi.com/2075-4418/14/23/2635"
 
 - year: 2024
   type: journal
   title: "Impact of antibiotics, corticosteroids, and microbiota on immunotherapy efficacy in patients with non-small cell lung cancer"
   venue: "Heliyon"
-  link: ""
+  link: "https://doi.org/10.1016/j.heliyon.2024.e33713"
+  full_text: "https://pmc.ncbi.nlm.nih.gov/articles/PMC11268177/"
 
 - year: 2014
   type: journal
   title: "Rethinking the logistic approach for population dynamics of mutualistic interactions"
   venue: "Journal of Theoretical Biology"
-  link: ""
+  link: "https://doi.org/10.1016/j.jtbi.2014.08.039"
+  full_text: "https://arxiv.org/abs/1305.5411"
 
 - year: 2012
   type: journal
   title: "The architecture of weighted mutualistic networks"
   venue: "Oikos"
-  link: ""
+  link: "https://doi.org/10.1111/j.1600-0706.2011.19592.x"
+  full_text: "http://hdl.handle.net/10261/67465"
 
 - year: 2009
   type: journal
   title: "Weighted-Interaction Nestedness Estimator (WINE): A new estimator to calculate over frequency matrices"
   venue: "Environmental Modelling & Software"
-  link: ""
+  link: "https://doi.org/10.1016/j.envsoft.2009.05.014"
 
 - year: 2022
   type: book

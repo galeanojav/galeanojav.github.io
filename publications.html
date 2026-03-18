@@ -6,38 +6,62 @@ title: Publications
 <h1>Publications</h1>
 
 <p class="muted">
-Curated selection. For the complete list, see
+Selected publications with article links and, where available, a public full-text copy.
+For the complete list, see
 <a href="https://scholar.google.com/citations?user=mUBlzyIAAAAJ&hl=en">Google Scholar</a>.
 </p>
 
 {% assign pubs = site.data.publications | sort: "year" | reverse %}
-{% assign years = pubs | map: "year" | uniq %}
+{% assign selected = pubs | where: "type", "journal" %}
+{% assign books = pubs | where: "type", "book" %}
 
-{% for y in years %}
-  <details class="pub-year" {% if forloop.first %}open{% endif %}>
-    <summary><strong>{{ y }}</strong></summary>
-    <ul class="pub-list">
-      {% for p in pubs %}
-        {% if p.year == y %}
-          <li>
-            {% if p.link and p.link != "" %}
-              <a href="{{ p.link }}">{{ p.title }}</a>
-            {% else %}
-              {{ p.title }}
-            {% endif %}
-            — <em>{{ p.venue }}</em>
-            {% if p.note and p.note != "" %}
-              <span class="muted">({{ p.note }})</span>
-            {% endif %}
-          </li>
+<section class="pub-section">
+  <h2>Selected publications</h2>
+  <ul class="pub-cards">
+    {% for p in selected %}
+      <li class="pub-card">
+        <div class="pub-meta">
+          <span class="pub-year-chip">{{ p.year }}</span>
+          <span class="pub-venue">{{ p.venue }}</span>
+        </div>
+        <h3>{{ p.title }}</h3>
+        {% if p.authors and p.authors != "" %}
+          <p class="muted">{{ p.authors }}</p>
         {% endif %}
+        {% if p.note and p.note != "" %}
+          <p class="muted">{{ p.note }}</p>
+        {% endif %}
+        <div class="pub-actions">
+          {% if p.link and p.link != "" %}
+            <a class="pub-link" href="{{ p.link }}">Article</a>
+          {% endif %}
+          {% if p.full_text and p.full_text != "" %}
+            <a class="pub-link pub-link-secondary" href="{{ p.full_text }}">Open access</a>
+          {% endif %}
+        </div>
+      </li>
+    {% endfor %}
+  </ul>
+</section>
+
+{% if books and books.size > 0 %}
+  <section class="pub-section">
+    <h2>Books & educational material</h2>
+    <ul class="pub-list">
+      {% for p in books %}
+        <li>
+          <strong>{{ p.title }}</strong> ({{ p.year }}) — <em>{{ p.venue }}</em>
+          {% if p.link and p.link != "" %}
+            <a class="inline-action" href="{{ p.link }}">Link</a>
+          {% endif %}
+        </li>
       {% endfor %}
     </ul>
-  </details>
-{% endfor %}
+  </section>
+{% endif %}
 
 <hr/>
 
 <p class="muted">
-Edit the list in <code>_data/publications.yml</code>.
+Edit the list in <code>_data/publications.yml</code>. Use <code>link</code> for the official article page and <code>full_text</code> for a public repository or open-access copy.
 </p>
