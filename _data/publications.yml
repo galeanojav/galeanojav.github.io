@@ -36,7 +36,7 @@
   full_text: "https://www.mdpi.com/1422-0067/26/7/2946"
   featured_recent: true
 
-  - year: 2025
+- year: 2025
   type: journal
   title: "Unsupervised clustering of biochemical markers reveals health profiles associated with function and survival in active aging"
   venue: "Scientific Reports"
