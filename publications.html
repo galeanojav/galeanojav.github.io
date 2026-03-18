@@ -12,13 +12,14 @@ For the complete list, see
 </p>
 
 {% assign pubs = site.data.publications | sort: "year" | reverse %}
-{% assign selected = pubs | where: "type", "journal" %}
+{% assign recent = pubs | where: "featured_recent", true %}
+{% assign selected = pubs | where: "featured_selected", true | sort: "citations" | reverse %}
 {% assign books = pubs | where: "type", "book" %}
 
 <section class="pub-section">
-  <h2>Selected publications</h2>
+  <h2>Recent papers</h2>
   <ul class="pub-cards">
-    {% for p in selected %}
+    {% for p in recent %}
       <li class="pub-card">
         <div class="pub-meta">
           <span class="pub-year-chip">{{ p.year }}</span>
@@ -44,9 +45,42 @@ For the complete list, see
   </ul>
 </section>
 
+<section class="pub-section">
+  <h2>Selected papers</h2>
+  <p class="muted">Five most cited papers in Google Scholar.</p>
+  <ul class="pub-cards">
+    {% for p in selected %}
+      <li class="pub-card">
+        <div class="pub-meta">
+          <span class="pub-year-chip">{{ p.year }}</span>
+          <span class="pub-venue">{{ p.venue }}</span>
+          {% if p.citations %}
+            <span class="pub-citations">{{ p.citations }} citations</span>
+          {% endif %}
+        </div>
+        <h3>{{ p.title }}</h3>
+        {% if p.authors and p.authors != "" %}
+          <p class="muted">{{ p.authors }}</p>
+        {% endif %}
+        {% if p.note and p.note != "" %}
+          <p class="muted">{{ p.note }}</p>
+        {% endif %}
+        <div class="pub-actions">
+          {% if p.link and p.link != "" %}
+            <a class="pub-link" href="{{ p.link }}">Article</a>
+          {% endif %}
+          {% if p.full_text and p.full_text != "" %}
+            <a class="pub-link pub-link-secondary" href="{{ p.full_text }}">Open access</a>
+          {% endif %}
+        </div>
+      </li>
+    {% endfor %}
+  </ul>
+</section>
+
 {% if books and books.size > 0 %}
   <section class="pub-section">
-    <h2>Books & educational material</h2>
+    <h2>Books & multimedia</h2>
     <ul class="pub-list">
       {% for p in books %}
         <li>
@@ -62,3 +96,6 @@ For the complete list, see
 
 <hr/>
 
+<p class="muted">
+Edit the list in <code>_data/publications.yml</code>. Use <code>featured_recent</code> and <code>featured_selected</code> to control each section, <code>link</code> for the official article page, and <code>full_text</code> for a public repository or open-access copy.
+</p>

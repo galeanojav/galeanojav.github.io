@@ -216,6 +216,16 @@ details.pub-year[open] summary{
   color: var(--muted);
   font-size: 0.95rem;
 }
+.pub-citations{
+  display: inline-flex;
+  align-items: center;
+  padding: 0.18rem 0.5rem;
+  border-radius: 999px;
+  background: rgba(124,92,255,0.10);
+  color: #5b46d8;
+  font-size: 0.82rem;
+  font-weight: 600;
+}
 .pub-actions{
   display: flex;
   flex-wrap: wrap;
