@@ -24,11 +24,13 @@ title: Home
 
 <div class="grid">
   <div class="card box col-6">
-    <h2>Highlights</h2>
+    <h2>Current themes</h2>
     <ul>
-      <li>Co-author of the <em>Weighted-Interaction Nestedness Estimator (WINE)</em> for frequency matrices (Environmental Modelling &amp; Software, 2009).</li>
-      <li>Research across ecological mutualistic networks, world trade networks, and microbiome-related modelling.</li>
-      <li>Software: <strong>FAONet</strong> (Python tools for bipartite trade networks).</li>
+      <li>Microbiome and health, with current work on cystic fibrosis and related biomedical data.</li>
+      <li>Ecological dynamics, inference, and modelling under scarce or noisy data conditions.</li>
+      <li>Network structure in biological, ecological, and social systems.</li>
+      <li>Machine learning for applied scientific problems, including plant and agrifood systems.</li>
+      <li>Sport analytics, with ongoing data analysis in badminton performance.</li>
     </ul>
   </div>
 
