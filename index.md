@@ -5,7 +5,9 @@ title: Home
 
 <div class="hero">
   <div class="card photo">
-    <img src="{{ '/assets/javier-galeano.jpg' | relative_url }}" alt="Javier Galeano Prieto" />
+    <div class="photo-frame">
+      <img src="{{ '/assets/javier-galeano.jpg' | relative_url }}" alt="Javier Galeano Prieto" />
+    </div>
     <p class="photo-credit">Photo by Rafa Vida, taken at the Oxford University Museum of Natural History.</p>
   </div>
 
