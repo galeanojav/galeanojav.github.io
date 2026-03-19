@@ -38,9 +38,10 @@ title: Home
   </div>
 
   <div class="card box col-6">
-    <h2>Quick links</h2>
+    <h2>Upcoming activities</h2>
     <ul>
-      <li><a href="{{ '/publications' | relative_url }}">Publications</a> (recent papers, selected papers, books & multimedia)</li>
+      <li><a href="https://epinut.org.es/CDC/9/index.htm">IX Congreso Internacional de Docentes de Ciencia y Tecnología</a> Física y química en el Museo Nacional del Prado.
+Javier Galeano</li>
       <li><a href="{{ '/projects' | relative_url }}">Projects</a> (funded + outreach)</li>
       <li><a href="{{ '/talks' | relative_url }}">Talks</a> (invited + dissemination)</li>
       <li><a href="{{ '/cv' | relative_url }}">CV</a> (download)</li>
