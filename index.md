@@ -41,7 +41,7 @@ title: Home
     <h2>Upcoming activities</h2>
     <ul>
       <li><a href="https://epinut.org.es/CDC/9/index.htm">IX Congreso Internacional de Docentes de Ciencia y Tecnología</a> Física y química en el Museo Nacional del Prado.
-Javier Galeano</li>
+Madrid, 16/04/2026</li>
       <li><a href="{{ '/projects' | relative_url }}">Projects</a> (funded + outreach)</li>
       <li><a href="{{ '/talks' | relative_url }}">Talks</a> (invited + dissemination)</li>
       <li><a href="{{ '/cv' | relative_url }}">CV</a> (download)</li>
