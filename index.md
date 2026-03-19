@@ -45,7 +45,7 @@ Madrid, 16/04/2026</li>
       <li><a href="https://complenet.weeblysite.com/">Complenet 2026</a> Zaragoza, May 4-8 2026</li>
       <li><a href="https://sites.google.com/view/iwcsa2026/home">International Workshop on Complex Systems and Applications 2026
  in Honor of Prof. Rosa M. Benito</a> Madrid, June 10-12</li>
-      <li><a href="{{ '/cv' | relative_url }}">CV</a> (download)</li>
+      <li><a href="[https://ecmtb2026.org/">14th European Conference on Mathematical & Theoretical Biology</a> minisymposium MS116, "Complexity Science for Biological and Medical Problems". Graz, July 13-17</li>
     </ul>
   </div>
 </div>
