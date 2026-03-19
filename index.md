@@ -43,7 +43,8 @@ title: Home
       <li><a href="https://epinut.org.es/CDC/9/index.htm">IX Congreso Internacional de Docentes de Ciencia y Tecnología</a> Física y química en el Museo Nacional del Prado.
 Madrid, 16/04/2026</li>
       <li><a href="https://complenet.weeblysite.com/">Complenet 2026</a> Zaragoza, May 4-8 2026</li>
-      <li><a href="{{ '/talks' | relative_url }}">Talks</a> (invited + dissemination)</li>
+      <li><a href="https://sites.google.com/view/iwcsa2026/home">International Workshop on Complex Systems and Applications 2026
+ in Honor of Prof. Rosa M. Benito</a> Madrid, June 10-12</li>
       <li><a href="{{ '/cv' | relative_url }}">CV</a> (download)</li>
     </ul>
   </div>
