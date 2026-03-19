@@ -7,11 +7,11 @@ title: Projects
 
 # Projects
 
-## Current / recent (selection)
+## Current/recent (selection)
 
 **Principal Investigator**
 
-- **Biodiversa+ 2022 (PCI2023-145956-2)** — *Making Technology Work for Monitoring Pollinators* (Antenna).
+- **Biodiversa+ 2022 (PCI2023-145956-2)** — *Making Technology Work for Monitoring Pollinators* (Antenna). [webpage](https://jj-lab.github.io/Antenna_PCI_website/)
 
 **Colaborator**
 
