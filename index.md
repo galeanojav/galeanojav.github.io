@@ -24,7 +24,7 @@ title: Home
     </div>
     <h2>New Articles</h2>
     <ul>
-      <li>Latent biochemical phenotypes delineate divergent health trajectories in older adults, R. González-Martos et al. (2026) npj Aging. <a href="https://www.nature.com/articles/s41514-026-00415-4"></li>
+      <li><a href="https://www.nature.com/articles/s41514-026-00415-4"> Latent biochemical phenotypes delineate divergent health trajectories in older adults</a>, R. González-Martos et al. (2026) npj Aging. </li>
     </ul>
     
   </div>
