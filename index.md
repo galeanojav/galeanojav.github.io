@@ -22,6 +22,11 @@ title: Home
       <a class="badge" href="https://scholar.google.com/citations?user=mUBlzyIAAAAJ&hl=en">Google Scholar</a>
       <a class="badge" href="https://orcid.org/0000-0003-0706-4317">ORCID</a>
     </div>
+    <h2>New papers</h2>
+    <ul>
+      <li>Latent biochemical phenotypes delineate divergent health trajectories in older adults, R. González-Martos et al. (2026) npj Aging</li>
+    </ul>
+    
   </div>
 </div>
 
