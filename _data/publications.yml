@@ -74,7 +74,7 @@
   venue: "Journal of Theoretical Biology"
   link: "https://doi.org/10.1016/j.jtbi.2014.08.039"
   full_text: "https://arxiv.org/abs/1305.5411"
-  citations: 47
+  citations: 51
   featured_selected: true
 
 - year: 2012
@@ -89,7 +89,7 @@
   title: "Weighted-Interaction Nestedness Estimator (WINE): A new estimator to calculate over frequency matrices"
   venue: "Environmental Modelling & Software"
   link: "https://doi.org/10.1016/j.envsoft.2009.05.014"
-  citations: 151
+  citations: 161
   featured_selected: true
 
 - year: 2022
@@ -98,7 +98,7 @@
   venue: "Sustainability"
   link: "https://doi.org/10.3390/su14020672"
   full_text: "https://www.mdpi.com/2071-1050/14/2/672"
-  citations: 55
+  citations: 108
   featured_selected: true
 
 - year: 2018
@@ -107,7 +107,7 @@
   venue: "Frontiers in Psychology"
   link: "https://doi.org/10.3389/fpsyg.2018.01900"
   full_text: "https://dau.url.edu/handle/20.500.14342/5121"
-  citations: 104
+  citations: 135
   featured_selected: true
 
 - year: 2017
@@ -116,7 +116,7 @@
   venue: "mBio"
   link: "https://doi.org/10.1128/mBio.00959-17"
   full_text: "https://pmc.ncbi.nlm.nih.gov/articles/PMC5615197/"
-  citations: 48
+  citations: 67
   featured_selected: true
 
 - year: 2022
