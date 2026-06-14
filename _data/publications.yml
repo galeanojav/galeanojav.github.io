@@ -12,6 +12,14 @@
 # - featured_selected (optional): true for the 5 most cited papers
 # - note (optional)
 
+- year: 2026
+  type: journal
+  title: "Latent biochemical phenotypes delineate divergent health trajectories in older adults"
+  venue: "npj Aging"
+  link: "https://www.nature.com/articles/s41514-026-00415-4"
+  full_text: "https://www.nature.com/articles/s41514-026-00415-4"
+  featured_recent: true
+
 - year: 2025
   type: journal
   title: "Scarce data, noisy inferences and overfitting: the hidden flaws in ecological dynamics modelling"
@@ -50,7 +58,7 @@
   venue: "Diagnostics"
   link: "https://doi.org/10.3390/diagnostics14232635"
   full_text: "https://www.mdpi.com/2075-4418/14/23/2635"
-  featured_recent: true
+  featured_recent: false
 
 - year: 2024
   type: journal
